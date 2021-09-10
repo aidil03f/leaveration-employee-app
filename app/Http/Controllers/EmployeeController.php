@@ -27,7 +27,7 @@ class EmployeeController extends Controller
        request()->validate([
            'nik' => 'required',
            'name' => 'required',
-           'date_of_entry' => 'required',
+           'date_of_entry' => 'required|date',
            'gender' => 'required',
            'department' => 'required',
            'position' => 'required',
@@ -63,7 +63,7 @@ class EmployeeController extends Controller
         request()->validate([
             'nik' => 'required',
             'name' => 'required',
-            'date_of_entry' => 'required',
+            'date_of_entry' => 'required|date',
             'gender' => 'required',
             'department' => 'required',
             'position' => 'required',
