@@ -4,7 +4,7 @@
 <div class="container-fluid">
     <div class="row mb-2">
       <div class="col-sm-6">
-        <h1>Cuti</h1>
+        <h1>Leaveration</h1>
       </div>
       <div class="col-sm-6">
         <ol class="breadcrumb float-sm-right">
@@ -37,7 +37,7 @@
                 <th>Start Date</th>
                 <th>Up to</th>
                 <th>Duration</th>
-                <th>leaveration</th>
+                <th>Remainder leaveration</th>
                 <th>Status</th>
                 @if(auth()->user()->role == 'Admin' || auth()->user()->role == 'HR-Staff')
                   <th>Action</th>
